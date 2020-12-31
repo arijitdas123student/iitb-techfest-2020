@@ -1,5 +1,4 @@
-# Edge Impulse - OpenMV Image Classification Example
-
+# All copyrights goes to the author. This code has been made Open-Sourced using MIT License. Please don't forget to abbreviate the author or else which can lead to breaking of embargo.
 import sensor, image, time, os, tf
 
 sensor.reset()                         # Reset and initialize the sensor.
