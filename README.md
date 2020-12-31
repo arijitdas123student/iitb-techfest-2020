@@ -1,6 +1,6 @@
 # IIT BOMBAY TECHFEST 2020 Project Submission For Computational Agriculture Challenge
 
-**Project Name :** AgriImpulse 
+**Project Name :** AgriSpect
 
 **Tagline :** Food is the key element required for life. What if we tell you that you can make the food invulnerable!
 
@@ -24,5 +24,63 @@ Over here we should keep one thing in mind is that we need to make a system whic
 
 **Theory :** In our project we will be using the feature and characteristics of being warm-blooded mammal called thermoregulation. Here is a image showing the presence of thermoregulation and being scanned by a IR scanner camera -
 
-So basically we will scan up using the AMG8833 Sensor Camera breakout using the OpenMV Cam H7+  and it will show up whether the pest is present there or isn't. And it will then tell us where to exactly spray the insecticide or pesticide and where shouldn't.
+So basically we will scan up using the AMG8833 Sensor Camera breakout using the OpenMV Cam H7+ and it will show up whether the pest is present there or isn't. And it will then tell us where to exactly spray the insecticide or pesticide and where shouldn't.
 
+**Hardwares :**
+
+OpenMV Cam H7+ (https://openmv.io/products/openmv-cam-h7-plus)
+
+Adafruit AMG8833 IR Thermal Camera Breakout Board (https://www.adafruit.com/product/3538)
+
+Some Jumper Wires/Cables
+
+**Software :** 
+
+Edge Impulse (https://edgeimpulse.com/)
+
+OpenMV Studio (https://openmv.io/)
+
+**Evaluation** 
+
+If a large heat source like a nest isn’t obvious, sensitive thermal cameras may be able to detect irregular heat patterns, moisture, and other signs of damage that indicate the presence of a pest, like missing insulation or holes in walls that indicates an entry point. Understanding what patterns to look for requires training and practice, as it’s easy to incorrectly interpret an image.
+
+Here’s some indicators to look for when trying to locate the following common intruders:
+
+**Termites**
+
+![image](https://user-images.githubusercontent.com/64097541/103419738-45ae8e80-4bba-11eb-9c7e-a84a44e824c3.png)
+
+
+Termites nests may be visible as hotspots (left), and termite tunnels have high moisture content that can be detected with thermal imaging (right).
+
+Termites can be found by looking for nests, moisture sources, and evidence of damage in walls. When termites enter a home, they release heat from their digestive system in the form of carbon dioxide and construct mud tubes that have high moisture content, creating irregular heat patterns on the surface of walls, ceilings, and floors.
+
+**Rodents**
+
+![image](https://user-images.githubusercontent.com/64097541/103419658-e6507e80-4bb9-11eb-9fd3-20a467152449.png)
+
+Rodents (like the possum on the left) or their nests may be visible, or wildlife activity may leave clues like missing insulation (right).
+
+Rodents and other wildlife might create nests that can be detected, or might have damaged walls or moved insulation and created cold spots that can be seen in thermal. Nocturnal animals that emerge at night can also be tracked with thermal imaging, which works in complete darkness.
+
+**Hornets and Other Social Insects**
+
+![image](https://user-images.githubusercontent.com/64097541/103419700-2283df00-4bba-11eb-95d4-afb4e133dc50.png)
+
+
+Hornet nests show up as hotspots in thermal.
+
+Insects are cold-blooded, but they do generate heat. The heat of a wasp nest, beehive, or other large cluster of social insects will usually generate enough heat to be detected by a thermal camera.
+
+**Features**
+1. Low in cost and can be used very easily.
+
+2. No need of a technical background to use this device
+
+3. Will enable correct usage of chemicals in farming.
+
+4. Prevent harmful diseases cause by spraying unwanted chemicals.
+
+**Future Work** 
+
+For further development we are thinking of using some high power cameras which will be able to even track up and classify pests even if they are flying. We are thinking of reducing the cost and even trying to make our model run on cheap Android phones with a cheap Thermal Camera connected with it which will help the poor farmers to easily buy and use this technology to enhance the human life.
